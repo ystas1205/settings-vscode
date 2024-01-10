@@ -1,0 +1,59 @@
+{   
+    "extensions.autoCheckUpdates": false,
+    "update.enableWindowsBackgroundUpdates": false,
+    "extensions.autoUpdate": false,
+    "update.showReleaseNotes": false,
+    "update.mode": "none",
+
+    
+    "editor.lineHeight": 1.7,
+    "editor.minimap.enabled": false,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "window.commandCenter": false,
+    "workbench.startupEditor": "none",
+    "files.autoSave": "afterDelay",
+    "explorer.autoReveal": false,
+    "explorer.compactFolders": false,
+    "breadcrumbs.enabled": false,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "runTerminalCommand.commands": [
+        
+        {
+            "command": "ng g c ",
+            "name": "Generate Component"
+        },
+        {
+            "command": "tsc {resource}",
+            "auto": true
+        },
+        {
+            "command": "dotnet run",
+            "auto": true,
+            "group": ".NET Core"
+        },
+        {
+            "command": "dotnet add page -n ",
+            "group": ".NET Core"
+        },
+        {
+            "command": "dotnet watch run",
+            "auto": true,
+            "preserve": true,
+            "group": ".NET Core"
+        },
+        {
+            "command": "dotnet add package {clipboard}",
+            "auto": true,
+            "group": ".NET Core"
+        }
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "window.zoomLevel": 1,
+    "editor.fontWeight": "normal",
+    "editor.rulers": [
+        79
+    ]
+}
